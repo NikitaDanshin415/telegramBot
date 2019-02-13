@@ -63,7 +63,7 @@ $bot->command('rules', function ($message) use ($bot) {
     $bot->sendMessage($message->getChat()->getId(), $answer);
 });
 
-// помощ
+// помощь
 $bot->command('help', function ($message) use ($bot) {
     $answer = 'Команды:
 /help - помощь
