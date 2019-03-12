@@ -1,7 +1,6 @@
 <?php
 
-header('Content-Type: text/html; charset=utf-8');
-// подрубаем API
+//API
 require_once("vendor/autoload.php");
 
 // дебаг
